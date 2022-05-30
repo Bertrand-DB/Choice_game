@@ -15,15 +15,37 @@ sequence(start, event2, 2).
         sequence(event22, event222, 2).
 
 
+% Defining items to be added to Inventory, depending on Event and Option
+newItem(start, _, item).
+newItem(event1, 1, avocado).
+newItem(event1, 2, nope).
+newItem(event2, 1, uwu).
+newItem(event2, 2, show).
+
 
 %%%%%%%%%%%% Rules %%%%%%%%%%%%
 
 % Main rule, which must be called to play the game
-play(Event) :-
+play :- play(start, []).
+play(Event, Inventory) :-
+    inventory(Inventory),
     Event,
-    read(X),
-    sequence(Event, Next, X),
-    play(Next).
+    read(Option),
+    sequence(Event, Next, Option),
+    (
+    (newItem(Event, Option, Item), (play(Next, [Item|Inventory]); true))
+    ;
+    play(Next, Inventory)
+    ).
+
+
+% Display Inventory
+inventory(Inventory) :- write('Items:'), inventoryItems(Inventory).
+inventoryItems([]).
+inventoryItems([H|T]) :-
+    write('\t - '),
+    write(H),nl,
+    inventoryItems(T).
 
 
 % Game Events - Playable
