@@ -1,0 +1,40 @@
+ Sala de aula
+    1- Ir sentido contrário da multidão -> terrorista n o viu
+        //!11- tentar tomar a arma -> morre
+        12- esconder na biblioteca -> encontra duas pessoas escondidas
+            121- esconder próximo da pessoa A -> pessoa nervosa
+                1211- tentar acalmar -> ele falha e o terrorista encontra, são levados
+                1212- tapar a boca -> ele nao é encontrado + conversam sobre o plano + sabem de explosivos
+                    12121- Plano de sair pela janela (precisa achar corda no almocherifado) -> procurar uma sala
+                        12121a1- sala de química -> encontra ácido + ouve passos
+                            12121a11- fazer emboscada com ácido
+                            12121a12- esperar passar -> escadas
+                        12121a2- sala de aula
+
+                        //!12121a3- sala B -> (trancada) é achado
+                        12121a4- escada -> almocherifado fechado
+                            12121a41-
+
+                    12122- Ficar escondido
+                    12123- Porta de emergência (precisa de ferramenta) -> procurar uma sala
+                        12123a- 
+
+                //!1213- esconder em outro lugar -> o terrorista encontra no caminho + morre os 2   
+
+            122- esconder próximo da pessoa B -> pessoa calma
+                1221- ficar em silêncio -> não é encontrado + Pessoa A levada + perguntar sobre a situação
+                    //!12211- seguir o plano -> morre pelo explosivo
+                    12212- ir por sí só -> 
+
+                1222- perguntar sobre a situação -> todos encontrados e levados como refém
+
+
+        13- esconder na sala de química -> encontra ácido
+
+
+        14- voltar com a multidão -> N da pra fugir + encotra terrorista
+            131
+
+    2- Ir junto da multidão
+
+    3- Ficar na sala
