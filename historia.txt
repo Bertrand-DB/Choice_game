@@ -7,8 +7,14 @@
                 1212- tapar a boca -> ele nao é encontrado + conversam sobre o plano + sabem de explosivos
                     12121- Plano de sair pela janela (precisa achar corda no almocherifado) -> procurar uma sala
                         12121a1- sala de química -> encontra ácido + ouve passos
-                            12121a11- fazer emboscada com ácido
-                            12121a12- esperar passar -> escadas
+                            12121a11- fazer emboscada com ácido -> acerta o rosto do terrorista, que fica atordoado
+                                //!12121a111- tomar a arma -> morre
+                                12121a112- correr para o almoxarifado (andar acima) + almoxarifado fechado
+                            12121a12- esperar passar -> escadas  + usar ácido para abrir almoxarifado + encontra corda
+                                12121a121- descer janela do corredor -> ouve passos
+                                    //!12121a1211- se esconder numa sala -> terrorista ouve passos + morre
+                                    //!12121a1212- esperar para descer também -> morre
+                                //12121a122- descer janela de uma sala -> os três se salvam
                         12121a2- sala de aula
 
                         //!12121a3- sala B -> (trancada) é achado
@@ -37,4 +43,22 @@
 
     2- Ir junto da multidão
 
-    3- Ficar na sala
+    3- Ficar na sala -> outra pessoa também fica + silêncio
+        31- sair da sala -> encontra com terrorista (te viu)
+            311- correr para escadas -> encontra térreo cheio de alunos/professores correndo e alguns terroristas
+                ![3111- sair pela saída principal -> sai da escola, mas muito ferido pelos estilhaços de uma bomba]
+                3112- voltar pra escada e tirar arma de terrorista -> consegue arma
+                    31121- atirar no terrorista -> terrorista morre
+                        311211- voltar para o térreo e atirar nos terroristas
+                        //!311212- esconder nas escadas -> morre por um terrorista que vem por cima
+                        311213- ir para andares superiores e se esconder -> encontra com terrorista
+                            //!3112131- descer escadas novamente -> morre
+                            3112132- atirar no terrorista -> terrorista morre + chega no andar superior + ouve passos
+                                [31121321- esconder]
+                                31121322- esperar pessoa aparecer e atirar se for terrorista
+                    31121- mandar terrorista se afastar
+                //!3113- olhar com atenção para ir para longe dos terroristas -> morto pelo terrorista nas escadas
+            312- pular pela janela da sala
+            313- pegar arma de terrorista
+        32- ficar em silêncio
+        33- perguntar se a pessoa sabe como fugir
