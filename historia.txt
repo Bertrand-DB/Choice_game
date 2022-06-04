@@ -43,22 +43,61 @@
 
     2- Ir junto da multidão
 
-    3- Ficar na sala -> outra pessoa também fica + silêncio
+    3- Ficar na sala de espera -> outras pessoas também ficam + silêncio
         31- sair da sala -> encontra com terrorista (te viu)
-            311- correr para escadas -> encontra térreo cheio de alunos/professores correndo e alguns terroristas
-                ![3111- sair pela saída principal -> sai da escola, mas muito ferido pelos estilhaços de uma bomba]
+            311- descer escadas -> encontra térreo cheio de pessoas correndo e alguns terroristas
+                //?3111- sair pela saída principal -> sai do banco, mas muito ferido pelos estilhaços de uma bomba
                 3112- voltar pra escada e tirar arma de terrorista -> consegue arma
                     31121- atirar no terrorista -> terrorista morre
                         311211- voltar para o térreo e atirar nos terroristas
+                            //!3112111- atirar em todos, sem distinção entre terroristas e pessoas comuns -> morre por uma pessoa comum
+                            //!3112112- olhar com atenção e decidir em qual terrorista atirar primeiro -> morre por terrorista
+                            3112113- atirar em qualquer um que pareça terrorista -> mata alguns + leva tiro
+                                //!31121131- continuar atirando -> mata comuns e terroristas + morre
+                                //?31121132- subir escadas e se esconder -> fica escondido até resgate da polícia
                         //!311212- esconder nas escadas -> morre por um terrorista que vem por cima
-                        311213- ir para andares superiores e se esconder -> encontra com terrorista
+                        311213- ir para andares superiores e se esconder -> encontra com terrorista nas escadas
                             //!3112131- descer escadas novamente -> morre
                             3112132- atirar no terrorista -> terrorista morre + chega no andar superior + ouve passos
-                                [31121321- esconder]
-                                31121322- esperar pessoa aparecer e atirar se for terrorista
-                    31121- mandar terrorista se afastar
+                                //*31121321- esconder -> depois de muito tempo, consegue sair
+                                31121322- esperar a pessoa aparecer e atirar se for terrorista -> é terrorista + atira + chama atenção
+                                    311213221- esconder -> vê dois terroristas andando
+                                        //?3112132211- atirar -> mata eles, mas sai ferido
+                                        //*3112132212- ficar quieto -> terroristas passam direto + se salva
+                                    //!311213222- esperar mais terroristas aparecerem -> morre
+                    31121- mandar terrorista se afastar -> terrorista pega arma devolta
+                        //!311211- tentar pegar arma novamente -> morre
+                        311212- correr para térreo -> leva tiro na perna
+                            //!3112121- sair pela saída principal -> morre
+                            //!3112122- deitar e fingir de morto -> morre pelo terrorista das escadas
+                            //!3112123- correr junto com a multidão -> morre
+                        //!311213- correr para andares superiores -> morre
                 //!3113- olhar com atenção para ir para longe dos terroristas -> morto pelo terrorista nas escadas
-            312- pular pela janela da sala
-            313- pegar arma de terrorista
-        32- ficar em silêncio
-        33- perguntar se a pessoa sabe como fugir
+            //?312- pular para fora pela janela da sala -> sai muito ferido
+            //!313- pegar arma de terrorista -> morre
+
+        32- ficar em silêncio -> terrorista entra na sala e procura pessoas
+            321- continuar em silêncio -> terrorista mata duas pessoas e sai
+                3211- fugir pelas escadas -> encontra terrorista
+                    //!32111- pegar arma -> morre
+                    32112- voltar para sala e se esconder -> leva tiro
+                        //!321121- correr até despistar terrorista -> morre
+                        //?321122- ficar no chão e não se mover -> terrorista sai + perde muito sangue mas depois é resgatado
+                    32113- ir para andar de cima -> vê escritórios e um almoxarifado
+                        321131- entrar em um escritório -> janela aberta
+                            //!3211311- pular pela janela -> morre
+                            3211312- esconder -> terrorista entra e te procura
+                                32113121- atacar terrorista -> pega arma e mata terrorista
+                                    //!321131211- usar arma para abrir caminho até o térreo e fugir pela entrada principal -> morre pelos terroristas no térreo
+                                    321131212- usar arma para abrir porta do almoxarifado -> encontra corda + usa corda para sair pela janela + ouve passos
+                                        //*3211312121- descer mesmo assim -> sai em segurança
+                                        //!3211312122- esperar terrorista aparecer e atirar -> morre
+                                32113122- continuar escondido -> terrorista dá tiro e sai + fica ferido
+                                    //?321131221- ficar parado até resgate chegar -> perde muito sangue mas vive
+                                    //!321131222- ir até almoxarifado e ver se encontra itens de primeiros socorros -> porta fechada + morre pela hemorragia
+                                //!32113123- pular pela janela -> morre
+                            //!3211313- mudar e se esconder no almoxarifado -> morre
+                        321132- entrar no almoxarifado
+                3212- continuar escondido -> pessoas gritando chamam atenção de outro terrorista
+                //!3213- tirar arma de terrorista -> morre
+            //!323- jogar algo perto de outra pessoa para chamar atenção do terrorista -> terrorista mata ela e vc
