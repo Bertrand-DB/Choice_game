@@ -21,6 +21,7 @@ sequence(start, event3, 3).
         sequence(event32, event321, 1).
         sequence(event32, event322, 2).
 
+
 %%%%%%%%%%%% Rules %%%%%%%%%%%%
 
 % Main rule, which must be called to play the game
@@ -30,7 +31,6 @@ play(Event) :-
     read(Option),
     sequence(Event, Next, Option),
     play(Next).
-
 
 % Game Events - Playable
 start :- write('START\n').
