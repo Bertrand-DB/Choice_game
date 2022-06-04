@@ -73,13 +73,13 @@ fila de grande banco
                                         //?3112132211- atirar -> mata eles, mas sai ferido
                                         //*3112132212- ficar quieto -> terroristas passam direto + se salva
                                     //!311213222- esperar mais terroristas aparecerem -> morre
-                    31121- mandar terrorista se afastar -> terrorista pega arma devolta
-                        //!311211- tentar pegar arma novamente -> morre
-                        311212- correr para térreo -> leva tiro na perna
-                            //!3112121- sair pela saída principal -> morre
-                            //!3112122- deitar e fingir de morto -> morre pelo terrorista das escadas
-                            //!3112123- correr junto com a multidão -> morre
-                        //!311213- correr para andares superiores -> morre
+                    31122- mandar terrorista se afastar -> terrorista pega arma devolta
+                        //!311221- tentar pegar arma novamente -> morre
+                        311222- correr para térreo -> leva tiro na perna
+                            //!3112221- sair pela saída principal -> morre
+                            //!3112222- deitar e fingir de morto -> morre pelo terrorista das escadas
+                            //!3112223- correr junto com a multidão -> morre
+                        //!311223- correr para andares superiores -> morre
                 //!3113- olhar com atenção para ir para longe dos terroristas -> morto pelo terrorista nas escadas
             //?312- pular para fora pela janela da sala -> sai muito ferido
             //!313- pegar arma de terrorista -> morre
