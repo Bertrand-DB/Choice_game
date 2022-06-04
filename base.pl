@@ -13,40 +13,24 @@ sequence(start, event2, 2).
     sequence(event2, event22, 2).
         sequence(event22, event221, 1).
         sequence(event22, event222, 2).
-
-
-% Defining items to be added to Inventory, depending on Event and Option
-newItem(start, _, item).
-newItem(event1, 1, avocado).
-newItem(event1, 2, nope).
-newItem(event2, 1, uwu).
-newItem(event2, 2, show).
+sequence(start, event3, 3).
+    sequence(event3, event31, 1).
+        sequence(event31, event311, 1).
+        sequence(event31, event312, 2).
+    sequence(event3, event31, 2).
+        sequence(event32, event321, 1).
+        sequence(event32, event322, 2).
 
 
 %%%%%%%%%%%% Rules %%%%%%%%%%%%
 
 % Main rule, which must be called to play the game
-play :- play(start, []).
-play(Event, Inventory) :-
-    inventory(Inventory),
+play :- play(start).
+play(Event) :-
     Event,
     read(Option),
     sequence(Event, Next, Option),
-    (
-    (newItem(Event, Option, Item), (play(Next, [Item|Inventory]); true))
-    ;
-    play(Next, Inventory)
-    ).
-
-
-% Display Inventory
-inventory(Inventory) :- write('Items:'), inventoryItems(Inventory).
-inventoryItems([]).
-inventoryItems([H|T]) :-
-    write('\t - '),
-    write(H),nl,
-    inventoryItems(T).
-
+    play(Next).
 
 % Game Events - Playable
 start :- write('START\n').
@@ -64,3 +48,11 @@ event2 :- write('EVENT 2\n').
     event22 :- write('EVENT 22\n').
         event221 :- write('EVENT 221\n').
         event222 :- write('EVENT 222\n').
+event3 :- write('EVENT 3\n1 - faca\n2 - chave\n').
+    event31 :- write('EVENT 31\n1- Lutar\n2- Correr\n').
+        event311 :- write('EVENT 311 - Lutou e venceu.\n').
+        event311 :- write('EVENT 311 - Lutou e perdeu.\n').
+        event312 :- write('EVENT 312 - Fugiu\n').
+    event32 :- write('EVENT 32\n').
+        event311 :- write('EVENT 321\n').
+        event312 :- write('EVENT 322\n').

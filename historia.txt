@@ -1,0 +1,111 @@
+fila de grande banco
+    1- Ir sentido contrário da multidão -> terrorista n o viu
+        //!11- tentar tomar a arma -> morre
+        12- esconder no escritorio -> encontra duas pessoas escondidas
+            121- esconder próximo da pessoa A -> pessoa nervosa
+                //!1211- tentar acalmar -> ele falha e o terrorista encontra
+                1212- tapar a boca -> ele nao é encontrado + conversam sobre o plano + sabem de explosivos
+                    12121- Plano de sair pela janela (precisa achar corda no almoxarifado) -> procurar uma sala
+                        121211- sala de limpeza -> encontra ácido + ouve passos
+                            1212111- fazer emboscada com ácido -> acerta o rosto do terrorista, que fica atordoado
+                                //!12121a111- tomar a arma -> morre
+                                12121112- correr para o almoxarifado (andar acima) + almoxarifado fechado + ouve alguém
+                                    121211121- esconder-se embaixo de bebedouro -> funcionario passa
+                                        //!12121a11211- segurar-lhe o pé e pedir ajuda -> funcionario se assusta e revela localização
+                                        1212111212- sussurrar por ajuda -> funcionario da-lhe a chave e corre para uma sala -> encontra a corda
+                                            //12121a112121- descer janela do almoxarifado
+                                            //!12121a112122- descer janela do corredor -> terrorista vê-lo pela janela do andar de baixo
+                                    121211122- tentar atacar de surpresa -> consegue fazer o funcionario cair e desmaiar, fazendo um pouco de barulho -> terrorista escuta do andar de baixo
+                                        //!12121a11221- arrastar corpo do funcionario para sala ao lado -> terrorista o pega fechando a porta + morre
+                                        //!12121a11222- se esconder em baixo do bebedouro -> o funcionario morre na sua frente, se assustanto e batendo a cabeça no bebedouro...
+                            1212112- esperar passar -> escadas  + usar ácido para abrir almoxarifado + encontra corda
+                                12121121- descer janela do corredor -> ouve passos
+                                    //!12121a1211- se esconder numa sala -> terrorista ouve passos + morre
+                                    //!12121a1212- esperar para descer também -> morre
+                                //12121a122- descer janela de uma sala -> os três se salvam
+                        121212- sala de reunião -> escuta passos
+                            //!12121a21- esconder atrás da porta e esperar passar -> terrorista entra rápido e bate a porta em você
+                            1212122- tentar uma armadilha -> encontra um projetor ligado + jarro decorativo + cadeiras
+                                //!12121a221- jogar uma cadeira -> muito grande, não o acertou direito
+                                //!12121a222- acertar com um jarro -> ele viu você e desviou por pouco
+                                12121223- usar o projetor de distração -> encandeia o terrorista que entra rápido, e o acerta com o jarro
+                                    //!12121a2231- pegar rifle e subir as escadas -> tenta atirar em terrorista, mas erra e se atordoa com o recuo da arma
+                                    121212232- pegar pistola e subir as escadas -> encontra terrorista de frente ao funcionario, e atira de surpresa + faz muito barulho
+                                        //12121a22321- correr para o almoxarifado -> funcionario da a chave, você encontra a corda e desce pela janela do almoxarifado com o funcionario
+                                        1212122322- entregar a arma do terrorista para o funcionário 
+                        //!12121a3- sala B -> (trancada) é achado
+                        12121a4- escada -> almocherifado fechado
+                            12121a41-
+                    12122- Ficar escondido
+                    12123- Porta de emergência (precisa de ferramenta) -> procurar uma sala
+                        12123a- 
+                //!1213- esconder em outro lugar -> o terrorista encontra no caminho + morre os 2   
+            122- esconder próximo da pessoa B -> pessoa calma
+                1221- ficar em silêncio -> não é encontrado + Pessoa A levada + perguntar sobre a situação
+                    //!12211- seguir o plano -> morre pelo explosivo
+                    12212- ir por sí só -> 
+                1222- perguntar sobre a situação -> todos encontrados e levados como refém
+        13- esconder na sala de limpeza -> encontra ácido
+        14- voltar com a multidão -> N da pra fugir + encotra terrorista
+            131
+
+    2- Ir junto da multidão
+
+    3- Ficar na sala de espera -> outras pessoas também ficam + silêncio
+        31- sair da sala -> encontra com terrorista (te viu)
+            311- descer escadas -> encontra térreo cheio de pessoas correndo e alguns terroristas
+                //?3111- sair pela saída principal -> sai do banco, mas muito ferido pelos estilhaços de uma bomba
+                3112- voltar pra escada e tirar arma de terrorista -> consegue arma
+                    31121- atirar no terrorista -> terrorista morre
+                        311211- voltar para o térreo e atirar nos terroristas
+                            //!3112111- atirar em todos, sem distinção entre terroristas e pessoas comuns -> morre por uma pessoa comum
+                            //!3112112- olhar com atenção e decidir em qual terrorista atirar primeiro -> morre por terrorista
+                            3112113- atirar em qualquer um que pareça terrorista -> mata alguns + leva tiro
+                                //!31121131- continuar atirando -> mata comuns e terroristas + morre
+                                //?31121132- subir escadas e se esconder -> fica escondido até resgate da polícia
+                        //!311212- esconder nas escadas -> morre por um terrorista que vem por cima
+                        311213- ir para andares superiores e se esconder -> encontra com terrorista nas escadas
+                            //!3112131- descer escadas novamente -> morre
+                            3112132- atirar no terrorista -> terrorista morre + chega no andar superior + ouve passos
+                                //*31121321- esconder -> depois de muito tempo, consegue sair
+                                31121322- esperar a pessoa aparecer e atirar se for terrorista -> é terrorista + atira + chama atenção
+                                    311213221- esconder -> vê dois terroristas andando
+                                        //?3112132211- atirar -> mata eles, mas sai ferido
+                                        //*3112132212- ficar quieto -> terroristas passam direto + se salva
+                                    //!311213222- esperar mais terroristas aparecerem -> morre
+                    31121- mandar terrorista se afastar -> terrorista pega arma devolta
+                        //!311211- tentar pegar arma novamente -> morre
+                        311212- correr para térreo -> leva tiro na perna
+                            //!3112121- sair pela saída principal -> morre
+                            //!3112122- deitar e fingir de morto -> morre pelo terrorista das escadas
+                            //!3112123- correr junto com a multidão -> morre
+                        //!311213- correr para andares superiores -> morre
+                //!3113- olhar com atenção para ir para longe dos terroristas -> morto pelo terrorista nas escadas
+            //?312- pular para fora pela janela da sala -> sai muito ferido
+            //!313- pegar arma de terrorista -> morre
+
+        32- ficar em silêncio -> terrorista entra na sala e procura pessoas
+            321- continuar em silêncio -> terrorista mata duas pessoas e sai
+                3211- fugir pelas escadas -> encontra terrorista
+                    //!32111- pegar arma -> morre
+                    32112- voltar para sala e se esconder -> leva tiro
+                        //!321121- correr até despistar terrorista -> morre
+                        //?321122- ficar no chão e não se mover -> terrorista sai + perde muito sangue mas depois é resgatado
+                    32113- ir para andar de cima -> vê escritórios e um almoxarifado
+                        321131- entrar em um escritório -> janela aberta
+                            //!3211311- pular pela janela -> morre
+                            3211312- esconder -> terrorista entra e te procura
+                                32113121- atacar terrorista -> pega arma e mata terrorista
+                                    //!321131211- usar arma para abrir caminho até o térreo e fugir pela entrada principal -> morre pelos terroristas no térreo
+                                    321131212- usar arma para abrir porta do almoxarifado -> encontra corda + usa corda para sair pela janela + ouve passos
+                                        //*3211312121- descer mesmo assim -> sai em segurança
+                                        //!3211312122- esperar terrorista aparecer e atirar -> morre
+                                32113122- continuar escondido -> terrorista dá tiro e sai + fica ferido
+                                    //?321131221- ficar parado até resgate chegar -> perde muito sangue mas vive
+                                    //!321131222- ir até almoxarifado e ver se encontra itens de primeiros socorros -> porta fechada + morre pela hemorragia
+                                //!32113123- pular pela janela -> morre
+                            //!3211313- mudar e se esconder no almoxarifado -> morre
+                        321132- entrar no almoxarifado
+                3212- continuar escondido -> pessoas gritando chamam atenção de outro terrorista
+                //!3213- tirar arma de terrorista -> morre
+            //!323- jogar algo perto de outra pessoa para chamar atenção do terrorista -> terrorista mata ela e vc
