@@ -293,116 +293,329 @@ event221 :- write('EVENT 221\n').
 
 event222 :- write('EVENT 222\n').
 
-event3 :- write('EVENT 3\n').
+event3 :- 
+	write('
+	Outras pessoas tambem ficam na sala de espera, se escondendo onde podem, para nao serem
+	mortas pelos terroristas. A sala fica em silencio - ninguem fala nada.
+	1 - Sair da sala
+	2 - Permanecer em silencio\n').
 
-event31 :- write('EVENT 31\n').
+event31 :-
+	write('
+	Voce sai da sala, mas nao esta com sorte, pois um terrorista que estava no corredor, perto
+	da sala, te viu.
+	1 - Correr ate as escadas e descer
+	2 - Pular para fora da janela da sala de onde saiu
+	3 - Pegar a arma do terrorista\n').
 
-event311 :- write('EVENT 311\n').
+event311 :-
+	write('
+	Voce conseguiu! Agora esta no terreo, mas este andar esta repleto de pessoas: muitos clientes,
+	pessoas comuns correndo desesperadas, e alguns terroristas - tapando as saidas ou atirando.
+	1 - Sair pela saida principal
+	2 - Voltar para as escadas e tirar a arma do terrorista
+	3 - Olhar e analisar com atencao a situacao para saber para onde correr\n').
 
-event3111 :- write('EVENT 3111\n').
+event3111 :- write('
+	Voce corre para a saida principal, esperancoso que os terroristas nao te notem por causa da
+	confusao. Voce tem uma certa dose de sorte, mas nem tanto. Voce leva um tiro, mas ainda assim
+	consegue correr para fora e recebe ajuda.
+	Apesar dos ferimentos, parabens! Voce saiu vivo.\n'),
+	abort.
 
-event3112 :- write('EVENT 3112\n').
+event3112 :- write('
+	No desespero voce corre ate o terrorista para tirar a arma dele e assegurar sua seguranca.
+	Voce consegue, agora e voce quem esta armado.
+	1 - Atirar no terrorista
+	2 - Mandar o terrorista se afastar\n').
 
-event31121 :- write('EVENT 31121\n').
+event31121 :- write('
+	O terrorista morreu.
+	1 - Voltar para o terreo
+	2 - Se esconder nas escadas
+	3 - Se esconder em andares superiores\n').
 
-event311211 :- write('EVENT 311211\n').
+event311211 :- write('
+	Voce esta no terreo. A situacao la permanece a mesma - confusao, desespero, tiros.
+	1 - Atirar em todos, sem distincao entre terroristas e pessoas comuns
+	2 - Olhar com atencao e decidir em qual terrorista atirar primeiro
+	3 - Atirar em qualquer um que pareca terrorista\n').
 
-event3112111 :- write('EVENT 3112111\n').
+event3112111 :- write('
+	Voce atira para todos os lados, matando terroristas, mas tambem inocentes. Acontece que a ameaca
+	vem de alguem inesperado: um cliente comum do banco. Ele estava correndo proximo quando voce comecou
+	a atirar, e entao agarrou seu pescoco com seu braco por tras, pressionou e te matou.
+	Voce morreu.\n'),
+	abort.
 
-event3112112 :- write('EVENT 3112112\n').
+event3112112 :- write('
+	Voce olha atentamente para saber em quem vale mais a pena atirar primeiro, procurando eficiencia em
+	cada tiro que der. Mas infelizmente e notado pelos terroristas, que abrem fogo e te matam.\n'),
+	abort.
 
-event3112113 :- write('EVENT 3112113\n').
+event3112113 :- write('
+	Preocupado com as pessoas comuns e entendendo seu desespero, voce espera ajuda-las, matando os
+	terroristas do terreo para que todos enfim possam fugir. Mas voce nao tem tanta habilidade em
+	combate assim, e acaba levando um tiro.
+	1 - Continuar atirando
+	2 - Subir as escadas e se esconder\n').
 
-event31121131 :- write('EVENT 31121131\n').
+event31121131 :- write('
+	Na determinacao de acabar com os inimigos voce continua atirando e consegue matar mais um terrorista,
+	mas acaba levando inocentes também. Os inimigos revidam, e voce morre pelos tiros.\n'),
+	abort.
 
-event31121132 :- write('EVENT 31121132\n').
+event31121132 :- write('
+	Apesar do tiro que levou, voce usa a energia que ainda tem e sobe para os andares superiores e se
+	esconde, ainda com a arma em maos. Algumas vezes se desespera por conta dos passos que escuta e
+	tambem pelo sangue que perdeu - e continua a perder. Porem, apos muito tempo a policia chega e voce
+	e resgatado.
+	Parabens, voce saiu vivo no final - apesar do tiro.\n'),
+	abort.
 
-event311212 :- write('EVENT 311212\n').
+event311212 :- write('
+	A vontade de atirar nos terroristas no terreo e fugir e grande, mas o medo e maior, entao voce
+	se esconde nas escadas, na esperanca de que nao sera notado - e de que podera atirar em quem te
+	descobrir. Mas fica tao vidrado na porta que leva ao terreo que se esquece das escadas - esquece
+	que alguem pode vir por cima. Isso acontece: um terrorista que vinha descendo as escadas te ve,
+	ele atira e te mata.\n'),
+	abort.
 
-event311213 :- write('EVENT 311213\n').
+event311213 :- write('
+	Com o terrorista morto, voce sobe as escadas para se esconder. Mas logo encontra mais um no caminho.
+	1 - Descer as escadas novamente, correndo
+	2 - Atirar no terrorista\n').
 
-event3112131 :- write('EVENT 3112131\n').
+event3112131 :- write('
+	Voce pode ser rapido, mas nao o suficiente. Logo voce comeca a correr e o terrorista atira em voce
+	com o rifle, e voce morre.\n'),
+	abort.
 
-event3112132 :- write('EVENT 3112132\n').
+event3112132 :- write('
+	Voce atira no terrorista e ele morre, caindo nas escadas, sem vida. Corre para o andar mais superior,
+	e ao chegar ouve passos se aproximando.
+	1 - Esconder na sala mais proxima
+	2 - Esperar a pessoa aparecer e atirar se for terrorista\n').
 
-event31121321 :- write('EVENT 31121321\n').
+event31121321 :- write('
+	Voce se esconde na sala mais proxima, a fim de que os terroristas nao te notem e voce fique seguro.
+	E voce tem sorte: eles nao te acham. Voce acaba por decidir continuar escondido, e depois de
+	muito tempo o resgate chega, e voce sai vivo, sem nenhum arranhao.\n'),
+	abort.
 
-event31121322 :- write('EVENT 31121322\n').
+event31121322 :- write('
+	De fato, voce ve um terrorista aparecer, entao atira e o mata, mas percebe que chamou atencao de outros,
+	pois comeca a ouvir mais passos se aproximando.
+	1 - Se esconder
+	2 - Esperar os terroristas aparecerem\n').
 
-event311213221 :- write('EVENT 311213221\n').
+event311213221 :- write('
+	Voce se esconde numa das salas mais proximas, e depois de um tempo ve dois terroristas andando,
+	procurando voce.
+	1 - Atirar
+	2 - Permanecer quieto\n').
 
-event3112132211 :- write('EVENT 3112132211\n').
+event3112132211 :- write('
+	Voce atira e consegue matar a ambos, mas nao sem um custo. Apesar de estar seguro dos inimigos, esta
+	ferido por um tiro que levou deles. Permanece quieto para perder o minimo de sangue, e apos bastante
+	tempo o resgate chega. Voce sai vivo, mas por pouco.\n'),
+	abort.
 
-event3112132212 :- write('EVENT 3112132212\n').
+event3112132212 :- write('
+	Esperancoso de que nao te notarao, voce permanece quieto. Acontece que funcionou. Eles passam sem te
+	notar, e ao continuar quieto voce se salva, permanecendo la ate o resgate chegar.
+	Parabens, voce saiu vivo e sem ferimentos.\n'),
+	abort.
 
-event311213222 :- write('EVENT 311213222\n').
+event311213222 :- write('
+	Paralisado pelo medo, ou talvez na confianca de que conseguira se livrar de mais inimigos, voce
+	permanece e espera os terroristas aparecerem. Porem, eles estao em maior numero e tem mais experiencia
+	e habilidade, e te matam.\n'),
+	abort.
 
-event31122 :- write('EVENT 31122\n').
+event31122 :- write('
+	Nao querendo ser causador de morte, voce manda o terrorista se afastar para nao feri-lo. Contudo, ele
+	se aproxima e toma a arma de volta.
+	1 - Pegar a arma novamente
+	2 - Correr para o terreo
+	3 - Subir as escadas correndo para os andares acima\n').
 
-event311221 :- write('EVENT 311221\n').
+event311221 :- write('
+	Ao tentar pegar a arma novamente o terrorista revida e atira, te matando.\n'),
+	abort.
 
-event311222 :- write('EVENT 311222\n').
+event311222 :- write('
+	Voce consegue chegar no terreo novamente, mas leva um tiro pelo terrorista nas escadas.
+	1 - Sair pela saida principal
+	2 - Deitar e fingir de morto
+	3 - Correr junto com a multidao\n').
 
-event3112221 :- write('EVENT 3112221\n').
+event3112221 :- write('
+	No desespero de sobreviver voce corre diretamente ate a saida principal, apesar dos terroristas
+	no terreo e daquele atras de voce. Voce leva mais tiros do assassino atras e morre.\n'),
+	abort.
 
-event3112222 :- write('EVENT 3112222\n').
+event3112222 :- write('
+	Voce cai no chao e finge que morreu por causa do tiro, mas para assegurar que voce realmente
+	esteja morto o terrorista atira mais duas vezes, e entao voce morre.\n'),
+	abort.
 
-event3112223 :- write('EVENT 3112223\n').
+event3112223 :- write('
+	Apesar de sair da vista do homem nas escadas, acaba recebendo tiros que alguns terroristas
+	lancaram contra a multidao desesperada, e morre.\n'),
+	abort.
 
-event311223 :- write('EVENT 311223\n').
+event311223 :- write('
+	Ao tentar correr para os andares superiores o terrorista atira nas suas costas - mais de uma
+	vez -, e voce acaba morrendo.\n'),
+	abort.
 
-event3113 :- write('EVENT 3113\n').
+event3113 :- write('
+	Se afastar dos terroristas e uma boa ideia, mas analisar com tanta atencao uma situacao assim
+	pode nao ser uma boa escolha: enquanto pensava no que fazer, o terrorista nas escadas te alcancou
+	e te matou.\n'),
+	abort.
 
-event312 :- write('EVENT 312\n').
+event312 :- write('
+	O desespero de dar de cara com um terrorista foi alto demais. Nao suportando o medo voce pula pela
+	janela da sala para sair do banco, independente dos ferimentos. De fato, voce sai do banco, e vivo,
+	mas com alguns ossos fraturados.\n'),
+	abort.
 
-event313 :- write('EVENT 313\n').
+event313 :- write('
+	No desespero voce tenta pegar a arma do terrorista, mas nao da certo: ele revida, atirando contra
+	voce muitas vezes, e voce morre.\n'),
+	abort.
 
-event32 :- write('EVENT 32\n').
+event32 :- write('
+	Apesar do silencio, entra um terrorista na sala. Ele, em pé, andando não muito lentamente, olha
+	de um canto a outro, aparentemente checando para garantir que a sala estava vazia.
+	1 - Continuar em silencio
+	2 - Jogar algo perto de outra pessoa para chamar a atencao do terrorista\n').
 
-event321 :- write('EVENT 321\n').
+event321 :- write('
+	O terrorista, nessa procura de quem pode estar escondida encontra duas pessoas e as mata, e logo
+	depois sai da sala.
+	1 - Fugir pelas escadas
+	2 - Continuar escondido
+	3 - Ir ate o terrorista e pegar a arma\n').
 
-event3211 :- write('EVENT 3211\n').
+event3211 :- write('
+	Voce vai ate as escadas sem ser percebido, mas ao entrar ve um terrorista.
+	1 - Pegar a arma
+	2 - Correr para a sala e se esconder
+	3 - Correr para o andar de cima\n').
 
-event32111 :- write('EVENT 32111\n').
+event32111 :- write('
+	Voce se aproxima para pegar a arma, mas o terrorista se defende e atira, matando voce.\n'),
+	abort.
 
-event32112 :- write('EVENT 32112\n').
+event32112 :- write('
+	Antes de chegar na sala ele atira e acerta uma bala em voce, que cai no chao.
+	1 - Correr ate despistar o terrorista
+	2 - Ficar no chao e nao se mover\n').
 
-event321121 :- write('EVENT 321121\n').
+event321121 :- write('
+	Voce levanta e comeca a correr, mas muito lentamente devido ao tiro que levou, e o terrorista
+	atira novamente, te matando.\n'),
+	abort.
 
-event321122 :- write('EVENT 321122\n').
+event321122 :- write('
+	Voce fica no chao - uma estrategia ridicula, temos que admitir -, mas o homem fica convencido
+	que voce vai morrer e te deixa la. Apos muito tempo, perdndo bastante sangue, o resgate chega
+	a tempo de te salvar.\n'),
+	abort.
 
-event32113 :- write('EVENT 32113\n').
+event32113 :- write('
+	Impressionantemente voce consegue chegar no andar acima, e entao encontra escritorios e um
+	almoxarifado.
+	1 - Entrar em um escritorio
+	2 - Entrar no almoxarifado\n').
 
-event321131 :- write('EVENT 321131\n').
+event321131 :- write('
+	Voce entra em um dos escritorios e encontra a janela aberta.
+	1 - Pular da janela
+	2 - Se esconder
+	3 - Sair do escritorio e se esconder no almoxarifado\n').
 
-event3211311 :- write('EVENT 3211311\n').
+event3211311 :- write('
+	Voce pula da janela para se salvar do terrorista, mas a janela estava muito alta e voce
+	cai de mau jeito, acabando por morrer.\n'),
+	abort.
 
-event3211312 :- write('EVENT 3211312\n').
+event3211312 :- write('
+	Voce se esconde entra os imoveis e outros itens do escritorio. Pouco depois o terrorista entra
+	e comeca a te procurar.
+	1 - Atacar o terrorista
+	2 - Continuar escondido
+	3 - Pular da janela\n').
 
-event32113121 :- write('EVENT 32113121\n').
+event32113121 :- write('
+	Voce tem sucesso no ataque: pega a arma e mata o terrorista.
+	1 - Usar arma para cobrir caminho ate o terreo e fugir pela entrada principal
+	2 - Ir ate o almoxarifado\n').
 
-event321131211 :- write('EVENT 321131211\n').
+event321131211 :- write('
+	Voce consegue ir ate o terreo, mas morre pelos terroristas que estao la.\n'),
+	abort.
 
-event321131212 :- write('EVENT 321131212\n').
+event321131212 :- write('
+	A porta do almoxarifado esta fechada, mas voce usa a arma para abri-la. La, encontra uma corda
+	e a usa para colocar na janela, como forma de fugir em seguranca, mas comeca a ouvir passos.
+	1 - Descer na corda
+	2 - Esperar terrorista aparecer e atirar\n').
 
-event3211312121 :- write('EVENT 3211312121\n').
+event3211312121 :- write('
+	Voce desce com sucesso, saindo do banco sem nenhum arranhao.\n'),
+	abort.
 
-event3211312122 :- write('EVENT 3211312122\n').
+event3211312122 :- write('
+	Apesar de ja esperar o terrorista aparecer, ele age muito rapidamente e atira primeiro,
+	matando voce.\n'),
+	abort.
 
-event32113122 :- write('EVENT 32113122\n').
+event32113122 :- write('
+	Voce se esconde, mas nao bem o suficiente: o terrorista te encontra, da um tiro e sai.
+	1 - Ficar parado ate o resgate chegar
+	2 - Ir ate o almoxarifado e ver se encontra itens de primeiros socorros\n').
 
-event321131221 :- write('EVENT 321131221\n').
+event321131221 :- write('
+	Voce se desespera pelo tanto de sangue que vai perdendo, mas o resgate chega a tempo e voce
+	vive, apesar dos problemas de saude que tera como consequencia do tiro.\n'),
+	abort.
 
-event321131222 :- write('EVENT 321131222\n').
+event321131222 :- write('
+	Voce se esforca para ir ate o almoxarifado, perdendo muito sangue no caminho, mas quando chega la
+	encontra a porta trancada. Voce decide ficar parado, na esperanca de sobreviver, mas perdeu sangue
+	demais, e o resgate nao chegou a tempo.\n'),
+	abort.
 
-event32113123 :- write('EVENT 32113123\n').
+event32113123 :- write('
+	Voce pula pela janela, disposto a enfrentar as dores e consequencias duradouras da queda, mas
+	acaba morrendo.\n'),
+	abort.
 
-event3211313 :- write('EVENT 3211313\n').
+event3211313 :- write('
+	Enquanto voce sai do escritorio leva um tiro, bem antes de chegar ao almoxarifado. Caido no chao
+	leva mais um tiro e morre.\n'),
+	abort.
 
-event321132 :- write('EVENT 321132\n').
+event321132 :- write('
+	Voce tenta entrar no almoxarifado para fugir do terrorista, mas a porta esta trancada e voce fica
+	de fora. O terrorista entao chega, te encontra e mata.\n'),
+	abort.
 
-event3212 :- write('EVENT 3212\n').
+event3212 :- write('
+	Apesar de presenciar a morte de duas pessoas voce continua em silencio. Mas ha uma pessoa na sala
+	que nao consegue se conter, causando a volta do terrorista, que tambem te encontra e te mata.\n'),
+	abort.
 
-event3213 :- write('EVENT 3213\n').
+event3213 :- write('
+	Muita coragem ir ate um terrorista que acabou de matar duas pessoas para pegar sua arma. Infelizmente
+	coragem nao e tudo: voce morreu.\n'),
+	abort.
 
-event323 :- write('EVENT 323\n').
+event322 :- write('
+	Muito deselegante de sua parte causar a morte de alguem de um jeito tao sacana assim. Mas o terrorista
+	tambem te viu e te matou - otario.\n'),
+	abort.

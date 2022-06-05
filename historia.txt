@@ -129,7 +129,7 @@ fila de grande banco
                                     //!321131222- ir até almoxarifado e ver se encontra itens de primeiros socorros -> porta fechada + morre pela hemorragia
                                 //!32113123- pular pela janela -> morre
                             //!3211313- mudar e se esconder no almoxarifado -> morre
-                        321132- entrar no almoxarifado
-                3212- continuar escondido -> pessoas gritando chamam atenção de outro terrorista
+                        //!321132- entrar no almoxarifado
+                //!3212- continuar escondido -> pessoas gritando chamam atenção de outro terrorista
                 //!3213- tirar arma de terrorista -> morre
-            //!323- jogar algo perto de outra pessoa para chamar atenção do terrorista -> terrorista mata ela e vc
+            //!322- jogar algo perto de outra pessoa para chamar atenção do terrorista -> terrorista mata ela e vc
