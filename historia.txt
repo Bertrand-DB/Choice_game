@@ -57,8 +57,16 @@ fila de grande banco
                 1221- ficar em silêncio -> não é encontrado + Pessoa A morre + perguntar sobre a situação
                     //!12211- seguir o plano -> morre pelo explosivo ao tentar abrir a porta de emergencia
                     12212- ficar escondido -> após um tempo, houve disparos no andar de cima -> 
-                        122121- 
-                        122122-
+                        122121- procurar algo de útil na sala próxima -> encontra ácido na sala de limpeza + escuta passos em direção ao escritório
+                            1221211- manter-se escondido -> escuta tiros
+                                //!12212111- tentar emboscar -> terrorista abre a porta com cautela e você não acerta
+                                //!12212112- continuar escondido -> terrorista o encontra para sua surpresa
+                            1221212- atacar por trás com o ácido -> terrorista é pego de surpresa pela dor, com ajuda da Pessoa B você consegue pegar uma pistola e atirar
+                                //!12212121- correr para a saída de emergencia -> morrem por explosivos
+                                12212122- subir escadas -> encontram funcionário morto e terrorista indo para outra escada ao final do corredor -> voces atiram -> terrorista morre segurando um explosivo
+                                        //122121221- seguir para as escadas -> conseguem chegar a cobertura, e logo são resgatados por um helicóptero
+                                        //!122121222- pegar explosivo -> segura sem cautela e acaba ativando-a sem perceber
+                        //!122122- continuar escondido -> aparece outro terrorista e com uma olhada melhor, os encontra
                 //!1222- perguntar sobre a situação -> todos encontrados e levados como refém
 
     2- Ir junto da multidão -> encontra um grupo de terrorista e vira refém
