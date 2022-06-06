@@ -283,15 +283,32 @@ event122122 :- write('EVENT 122122\n').
 
 event1222 :- write('EVENT 1222\n').
 
-event2 :- write('EVENT 2\n').
+event2 :- write('
+	Correndo junto com a multidao desesperada pelo ataque ao banco voce acaba encontrando um grupo
+	de terroristas e vira refem.
+	1 - Tentar fugir
+	2 - Ficar quieto\n').
 
-event21 :- write('EVENT 21\n').
+event21 :- write('
+	Voce corre, fugindo para qualquer lugar que lhe pareca seguro, mas os terroristas te veem e entao
+	atira, e voce morre.\n'),
+	abort.
 
-event22 :- write('EVENT 22\n').
+event22 :- write('
+	Apos um tempo no silencio, com medo dos terroristas, tiros comecam a vir de outros comodos e todo
+	o grupo de refens entra em panico.
+	1 - Correr com alguns dos refens para fora
+	2 - Se abaixar e ficar quieto\n').
 
-event221 :- write('EVENT 221\n').
+event221 :- write('
+	Os terroristas disparam contra a parte do grupo de refens que esta fugindo, causando a morte de
+	muitos, incluindo voce.\n'),
+	abort.
 
-event222 :- write('EVENT 222\n').
+event222 :- write('
+	Voce acaba sendo pisoteado pelos refens que estao tentando fugir e acaba desmaiando, mas quando acorda
+	voce ja foi resgatado pelos policiais.\n'),
+	abort.
 
 event3 :- 
 	write('
